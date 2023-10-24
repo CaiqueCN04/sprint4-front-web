@@ -1,0 +1,36 @@
+@import './variaveis';
+
+
+
+nav{
+   display: flex;
+   height: 110px;
+   align-items: center;
+   justify-content: space-around;
+   background-color: #b3d8b285;
+}
+
+.tudoNav{
+    width: 100%;
+    display: flex;
+}
+ul{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+    justify-content:center;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 480px){
+    nav{
+        height: 200px;
+    }
+    .ul{
+        margin-top: 1px;
+    }
+    ul{
+        gap: 4px;
+        height: 40px;
+    }
+}

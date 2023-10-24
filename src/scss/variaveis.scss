@@ -1,0 +1,13 @@
+@import "bootstrap/scss/bootstrap";
+
+
+ 
+$theme-colors: (
+  "secondary":  $gray-400,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
